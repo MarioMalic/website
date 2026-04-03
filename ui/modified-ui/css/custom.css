@@ -1,0 +1,132 @@
+/* Keep all nav items expanded by default */
+/* Expand all nested navigation items */
+/* .nav-list .nav-item .nav-list {
+  display: block !important;
+}
+
+/* Hide the expand/collapse toggle buttons */
+/* .nav-item-toggle {
+  display: none !important;
+} */
+
+/* Adjust spacing between table rows */
+.tableblock.frame-none.grid-none.stretch {
+  line-height: 1.1; /* Increase this value for more spacing */
+  margin-top: 0.5rem;
+}
+
+.doc .sect1 {
+    hyphens: none;
+    margin-top: 1rem;
+}
+
+
+/* ============================================================
+   HEADER OVERRIDE — Moderate
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+
+:root {
+  --accent: #1e993a;
+  --accent-soft: rgba(255, 60, 0, 0);
+  --header-bg: #111111;
+}
+
+/* ── Navbar ── */
+.navbar {
+  background: var(--header-bg) !important;
+  height: 64px !important;
+  border-bottom: 3px solid var(--accent) !important;
+}
+
+.navbar .site-title,
+.navbar .navbar-brand {
+  font-family: 'Syne', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+  letter-spacing: -0.01em !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* Dim the "Mechanical Engineer" part slightly */
+.navbar .site-title .version {
+  color: #aaaaaa !important;
+}
+
+/* Accent color on the | separator */
+.navbar .site-title .separator,
+.navbar .site-title .pipe {
+  color: var(--accent) !important;
+}
+
+/* ── Toolbar / breadcrumb ── */
+.toolbar {
+  background: #fafafa !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 0.8rem !important;
+  height: 40px !important;
+}
+
+.breadcrumbs a {
+  color: #666 !important;
+  font-weight: 500 !important;
+  transition: color 0.15s !important;
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent) !important;
+}
+
+.breadcrumbs li:last-child a,
+.breadcrumbs li:last-child span {
+  color: var(--accent) !important;
+  font-weight: 600 !important;
+}
+
+/* ── Active nav item ── */
+.nav-item.is-current-page > .nav-link {
+  color: var(--accent) !important;
+  font-weight: 700 !important;
+  border-left: 3px solid var(--accent) !important;
+  padding-left: 0.5em;
+}
+
+.nav-panel-explore {
+  display: none !important;
+}
+
+.panels {
+  flex-direction: column;
+}
+
+.nav-panel-menu {
+  flex: 1 !important;
+}
+
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border: 2px solid #0a66c2;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+}
+
+.linkedin-link:hover {
+  background: #0a66c2;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.footer {
+  text-align: center;
+}

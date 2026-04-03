@@ -12,9 +12,9 @@ content:
     branches: main
 ui:
   bundle:
-    url: ./ui/default-ui
-  supplemental_files: ./ui/supplemental-ui
-
+    url: https://github.com/MarioMalic/website/releases/download/ui/modified-ui.zip
+    snapshot: true
+  
 output:
   dir: ../build
 
