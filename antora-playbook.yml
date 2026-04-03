@@ -1,0 +1,20 @@
+site:
+  title: Mario Malić
+  start_page: website-component::homepage.adoc
+  url: https://mariomalic.com
+  robots: allow
+  keys:
+    google_analytics: 'G-HBJ5T0G7MY'
+
+content:
+  sources:
+  - url: https://github.com/MarioMalic/website-component.git
+    branches: main
+ui:
+  bundle:
+    url: ./ui/default-ui
+  supplemental_files: ./ui/supplemental-ui
+
+output:
+  dir: ../build
+
