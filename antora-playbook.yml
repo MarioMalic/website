@@ -1,6 +1,6 @@
 site:
   title: Mario Malić
-  start_page: website-component::homepage.adoc
+  start_page: portfolio::homepage.adoc
   url: https://mariomalic.com
   robots: allow
   keys:
@@ -8,7 +8,7 @@ site:
 
 content:
   sources:
-  - url: https://github.com/MarioMalic/website-component.git
+  - url: https://github.com/MarioMalic/portfolio.git
     branches: main
 ui:
   bundle:
