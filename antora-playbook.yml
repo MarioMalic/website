@@ -2,7 +2,9 @@ site:
   title: Mario Malić
   start_page: portfolio::homepage.adoc
   url: https://mariomalic.com
-  robots: allow
+  robots: |
+    User-agent: *
+    Allow: /
   keys:
     google_analytics: 'G-HBJ5T0G7MY'
 
@@ -13,6 +15,7 @@ content:
 ui:
   bundle:
     url: https://github.com/MarioMalic/website/releases/download/ui/modified-ui.zip
+    # url: ./ui/modified-ui
     snapshot: true
   
 output:
