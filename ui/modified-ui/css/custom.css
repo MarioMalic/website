@@ -15,11 +15,13 @@
   margin-top: 0.5rem;
 }
 
-.doc .sect1 {
+.doc {
     hyphens: none;
-    margin-top: 1rem;
 }
 
+.doc .sect1 {
+    margin-top: 1rem;
+}
 
 /* ============================================================
    HEADER OVERRIDE — Moderate
