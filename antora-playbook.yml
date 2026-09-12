@@ -10,13 +10,11 @@ site:
 
 content:
   sources:
-  - url: https://github.com/MarioMalic/portfolio.git
-  #- url: ../portfolio
+  - url: https://gitlab.com/mario-malic/portfolio/component
     branches: main
 ui:
   bundle:
-    url: https://github.com/MarioMalic/website/releases/download/ui/modified-ui.zip
-    #url: ./ui/modified-ui
+    url: https://gitlab.com/mario-malic/portfolio/docs-site/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   
 output:
